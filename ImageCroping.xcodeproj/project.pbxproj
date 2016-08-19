@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6DCCC9D1D6701ED00B0AD57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCCC9C1D6701ED00B0AD57 /* AppDelegate.swift */; };
+		C6DCCC9F1D6701ED00B0AD57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCCC9E1D6701ED00B0AD57 /* ViewController.swift */; };
+		C6DCCCA21D6701ED00B0AD57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DCCCA01D6701ED00B0AD57 /* Main.storyboard */; };
+		C6DCCCA41D6701ED00B0AD57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DCCCA31D6701ED00B0AD57 /* Assets.xcassets */; };
+		C6DCCCA71D6701ED00B0AD57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DCCCA51D6701ED00B0AD57 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6DCCC991D6701ED00B0AD57 /* ImageCroping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCroping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DCCC9C1D6701ED00B0AD57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6DCCC9E1D6701ED00B0AD57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6DCCCA11D6701ED00B0AD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6DCCCA31D6701ED00B0AD57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6DCCCA61D6701ED00B0AD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6DCCCA81D6701ED00B0AD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6DCCC961D6701ED00B0AD57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6DCCC901D6701ED00B0AD57 = {
+			isa = PBXGroup;
+			children = (
+				C6DCCC9B1D6701ED00B0AD57 /* ImageCroping */,
+				C6DCCC9A1D6701ED00B0AD57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6DCCC9A1D6701ED00B0AD57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6DCCC991D6701ED00B0AD57 /* ImageCroping.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6DCCC9B1D6701ED00B0AD57 /* ImageCroping */ = {
+			isa = PBXGroup;
+			children = (
+				C6DCCC9C1D6701ED00B0AD57 /* AppDelegate.swift */,
+				C6DCCC9E1D6701ED00B0AD57 /* ViewController.swift */,
+				C6DCCCA01D6701ED00B0AD57 /* Main.storyboard */,
+				C6DCCCA31D6701ED00B0AD57 /* Assets.xcassets */,
+				C6DCCCA51D6701ED00B0AD57 /* LaunchScreen.storyboard */,
+				C6DCCCA81D6701ED00B0AD57 /* Info.plist */,
+			);
+			path = ImageCroping;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6DCCC981D6701ED00B0AD57 /* ImageCroping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6DCCCAB1D6701ED00B0AD57 /* Build configuration list for PBXNativeTarget "ImageCroping" */;
+			buildPhases = (
+				C6DCCC951D6701ED00B0AD57 /* Sources */,
+				C6DCCC961D6701ED00B0AD57 /* Frameworks */,
+				C6DCCC971D6701ED00B0AD57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageCroping;
+			productName = ImageCroping;
+			productReference = C6DCCC991D6701ED00B0AD57 /* ImageCroping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6DCCC911D6701ED00B0AD57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "funza Academy";
+				TargetAttributes = {
+					C6DCCC981D6701ED00B0AD57 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D24DQB7U8E;
+					};
+				};
+			};
+			buildConfigurationList = C6DCCC941D6701ED00B0AD57 /* Build configuration list for PBXProject "ImageCroping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6DCCC901D6701ED00B0AD57;
+			productRefGroup = C6DCCC9A1D6701ED00B0AD57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6DCCC981D6701ED00B0AD57 /* ImageCroping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6DCCC971D6701ED00B0AD57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DCCCA71D6701ED00B0AD57 /* LaunchScreen.storyboard in Resources */,
+				C6DCCCA41D6701ED00B0AD57 /* Assets.xcassets in Resources */,
+				C6DCCCA21D6701ED00B0AD57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6DCCC951D6701ED00B0AD57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DCCC9F1D6701ED00B0AD57 /* ViewController.swift in Sources */,
+				C6DCCC9D1D6701ED00B0AD57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6DCCCA01D6701ED00B0AD57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DCCCA11D6701ED00B0AD57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6DCCCA51D6701ED00B0AD57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DCCCA61D6701ED00B0AD57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6DCCCA91D6701ED00B0AD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C6DCCCAA1D6701ED00B0AD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6DCCCAC1D6701ED00B0AD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageCroping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.funza.ImageCroping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6DCCCAD1D6701ED00B0AD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageCroping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.funza.ImageCroping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6DCCC941D6701ED00B0AD57 /* Build configuration list for PBXProject "ImageCroping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6DCCCA91D6701ED00B0AD57 /* Debug */,
+				C6DCCCAA1D6701ED00B0AD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6DCCCAB1D6701ED00B0AD57 /* Build configuration list for PBXNativeTarget "ImageCroping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6DCCCAC1D6701ED00B0AD57 /* Debug */,
+				C6DCCCAD1D6701ED00B0AD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6DCCC911D6701ED00B0AD57 /* Project object */;
+}
