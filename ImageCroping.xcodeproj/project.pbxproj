@@ -8,21 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C65737BE1D7EAAF10020B5A5 /* Shutter sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C65737BD1D7EAAF10020B5A5 /* Shutter sound.mp3 */; };
-		C6CBBD6E1D7DC0480028CD2D /* CornerpointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBBD6D1D7DC0480028CD2D /* CornerpointView.swift */; };
+		C65737C21D7EBA420020B5A5 /* CornerpointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65737C11D7EBA420020B5A5 /* CornerpointView.swift */; };
+		C65737C41D7EBB060020B5A5 /* CornerpointClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65737C31D7EBB060020B5A5 /* CornerpointClientProtocol.swift */; };
+		C65737C61D7EBB0F0020B5A5 /* CroppableImageViewDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65737C51D7EBB0F0020B5A5 /* CroppableImageViewDelegateProtocol.swift */; };
+		C65737C81D7EBB5E0020B5A5 /* CroppableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65737C71D7EBB5E0020B5A5 /* CroppableImageView.swift */; };
 		C6CBBD731D7DC16E0028CD2D /* MasterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBBD721D7DC16E0028CD2D /* MasterData.swift */; };
 		C6DCCC9D1D6701ED00B0AD57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCCC9C1D6701ED00B0AD57 /* AppDelegate.swift */; };
 		C6DCCCA21D6701ED00B0AD57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DCCCA01D6701ED00B0AD57 /* Main.storyboard */; };
 		C6DCCCA41D6701ED00B0AD57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DCCCA31D6701ED00B0AD57 /* Assets.xcassets */; };
 		C6DCCCA71D6701ED00B0AD57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DCCCA51D6701ED00B0AD57 /* LaunchScreen.storyboard */; };
 		C6DCCCB91D67117400B0AD57 /* ImageDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCCCB81D67117400B0AD57 /* ImageDisplayViewController.swift */; };
-		C6FEF8231D79D2D40038FCF5 /* CroppableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FEF8221D79D2D40038FCF5 /* CroppableImageView.swift */; };
-		C6FEF8251D79D2F60038FCF5 /* CornerpointClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FEF8241D79D2F60038FCF5 /* CornerpointClientProtocol.swift */; };
-		C6FEF8291D79D33F0038FCF5 /* CroppableImageViewDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FEF8281D79D33F0038FCF5 /* CroppableImageViewDelegateProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C65737BD1D7EAAF10020B5A5 /* Shutter sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shutter sound.mp3"; sourceTree = "<group>"; };
-		C6CBBD6D1D7DC0480028CD2D /* CornerpointView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CornerpointView.swift; path = ../../../../Desktop/CornerpointView.swift; sourceTree = "<group>"; };
+		C65737C11D7EBA420020B5A5 /* CornerpointView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerpointView.swift; sourceTree = "<group>"; };
+		C65737C31D7EBB060020B5A5 /* CornerpointClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerpointClientProtocol.swift; sourceTree = "<group>"; };
+		C65737C51D7EBB0F0020B5A5 /* CroppableImageViewDelegateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CroppableImageViewDelegateProtocol.swift; sourceTree = "<group>"; };
+		C65737C71D7EBB5E0020B5A5 /* CroppableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CroppableImageView.swift; sourceTree = "<group>"; };
 		C6CBBD721D7DC16E0028CD2D /* MasterData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterData.swift; sourceTree = "<group>"; };
 		C6DCCC991D6701ED00B0AD57 /* ImageCroping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCroping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DCCC9C1D6701ED00B0AD57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,9 +34,6 @@
 		C6DCCCA61D6701ED00B0AD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6DCCCA81D6701ED00B0AD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6DCCCB81D67117400B0AD57 /* ImageDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDisplayViewController.swift; sourceTree = "<group>"; };
-		C6FEF8221D79D2D40038FCF5 /* CroppableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CroppableImageView.swift; path = ../../ImageCroppingMaster/CropImg/CroppableImageView.swift; sourceTree = "<group>"; };
-		C6FEF8241D79D2F60038FCF5 /* CornerpointClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CornerpointClientProtocol.swift; path = ../../ImageCroppingMaster/CropImg/CornerpointClientProtocol.swift; sourceTree = "<group>"; };
-		C6FEF8281D79D33F0038FCF5 /* CroppableImageViewDelegateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CroppableImageViewDelegateProtocol.swift; path = ../../ImageCroppingMaster/CropImg/CroppableImageViewDelegateProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +74,10 @@
 		C6DCCC9B1D6701ED00B0AD57 /* ImageCroping */ = {
 			isa = PBXGroup;
 			children = (
-				C6CBBD6D1D7DC0480028CD2D /* CornerpointView.swift */,
-				C6FEF8281D79D33F0038FCF5 /* CroppableImageViewDelegateProtocol.swift */,
-				C6FEF8241D79D2F60038FCF5 /* CornerpointClientProtocol.swift */,
-				C6FEF8221D79D2D40038FCF5 /* CroppableImageView.swift */,
+				C65737C71D7EBB5E0020B5A5 /* CroppableImageView.swift */,
+				C65737C51D7EBB0F0020B5A5 /* CroppableImageViewDelegateProtocol.swift */,
+				C65737C31D7EBB060020B5A5 /* CornerpointClientProtocol.swift */,
+				C65737C11D7EBA420020B5A5 /* CornerpointView.swift */,
 				C6DCCC9C1D6701ED00B0AD57 /* AppDelegate.swift */,
 				C6DCCCA01D6701ED00B0AD57 /* Main.storyboard */,
 				C6CBBD721D7DC16E0028CD2D /* MasterData.swift */,
@@ -163,13 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6FEF8231D79D2D40038FCF5 /* CroppableImageView.swift in Sources */,
+				C65737C41D7EBB060020B5A5 /* CornerpointClientProtocol.swift in Sources */,
 				C6CBBD731D7DC16E0028CD2D /* MasterData.swift in Sources */,
 				C6DCCC9D1D6701ED00B0AD57 /* AppDelegate.swift in Sources */,
-				C6FEF8251D79D2F60038FCF5 /* CornerpointClientProtocol.swift in Sources */,
+				C65737C81D7EBB5E0020B5A5 /* CroppableImageView.swift in Sources */,
 				C6DCCCB91D67117400B0AD57 /* ImageDisplayViewController.swift in Sources */,
-				C6FEF8291D79D33F0038FCF5 /* CroppableImageViewDelegateProtocol.swift in Sources */,
-				C6CBBD6E1D7DC0480028CD2D /* CornerpointView.swift in Sources */,
+				C65737C61D7EBB0F0020B5A5 /* CroppableImageViewDelegateProtocol.swift in Sources */,
+				C65737C21D7EBA420020B5A5 /* CornerpointView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
