@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C65737BE1D7EAAF10020B5A5 /* Shutter sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C65737BD1D7EAAF10020B5A5 /* Shutter sound.mp3 */; };
+		C6CBBD6E1D7DC0480028CD2D /* CornerpointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBBD6D1D7DC0480028CD2D /* CornerpointView.swift */; };
+		C6CBBD731D7DC16E0028CD2D /* MasterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBBD721D7DC16E0028CD2D /* MasterData.swift */; };
 		C6DCCC9D1D6701ED00B0AD57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCCC9C1D6701ED00B0AD57 /* AppDelegate.swift */; };
-		C6DCCC9F1D6701ED00B0AD57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCCC9E1D6701ED00B0AD57 /* ViewController.swift */; };
 		C6DCCCA21D6701ED00B0AD57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DCCCA01D6701ED00B0AD57 /* Main.storyboard */; };
 		C6DCCCA41D6701ED00B0AD57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DCCCA31D6701ED00B0AD57 /* Assets.xcassets */; };
 		C6DCCCA71D6701ED00B0AD57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DCCCA51D6701ED00B0AD57 /* LaunchScreen.storyboard */; };
+		C6DCCCB91D67117400B0AD57 /* ImageDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCCCB81D67117400B0AD57 /* ImageDisplayViewController.swift */; };
+		C6FEF8231D79D2D40038FCF5 /* CroppableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FEF8221D79D2D40038FCF5 /* CroppableImageView.swift */; };
+		C6FEF8251D79D2F60038FCF5 /* CornerpointClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FEF8241D79D2F60038FCF5 /* CornerpointClientProtocol.swift */; };
+		C6FEF8291D79D33F0038FCF5 /* CroppableImageViewDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FEF8281D79D33F0038FCF5 /* CroppableImageViewDelegateProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C65737BD1D7EAAF10020B5A5 /* Shutter sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shutter sound.mp3"; sourceTree = "<group>"; };
+		C6CBBD6D1D7DC0480028CD2D /* CornerpointView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CornerpointView.swift; path = ../../../../Desktop/CornerpointView.swift; sourceTree = "<group>"; };
+		C6CBBD721D7DC16E0028CD2D /* MasterData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterData.swift; sourceTree = "<group>"; };
 		C6DCCC991D6701ED00B0AD57 /* ImageCroping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCroping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DCCC9C1D6701ED00B0AD57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6DCCC9E1D6701ED00B0AD57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6DCCCA11D6701ED00B0AD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6DCCCA31D6701ED00B0AD57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6DCCCA61D6701ED00B0AD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6DCCCA81D6701ED00B0AD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6DCCCB81D67117400B0AD57 /* ImageDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDisplayViewController.swift; sourceTree = "<group>"; };
+		C6FEF8221D79D2D40038FCF5 /* CroppableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CroppableImageView.swift; path = ../../ImageCroppingMaster/CropImg/CroppableImageView.swift; sourceTree = "<group>"; };
+		C6FEF8241D79D2F60038FCF5 /* CornerpointClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CornerpointClientProtocol.swift; path = ../../ImageCroppingMaster/CropImg/CornerpointClientProtocol.swift; sourceTree = "<group>"; };
+		C6FEF8281D79D33F0038FCF5 /* CroppableImageViewDelegateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CroppableImageViewDelegateProtocol.swift; path = ../../ImageCroppingMaster/CropImg/CroppableImageViewDelegateProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6CBBD6F1D7DC0660028CD2D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C65737BD1D7EAAF10020B5A5 /* Shutter sound.mp3 */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		C6DCCC901D6701ED00B0AD57 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +74,18 @@
 		C6DCCC9B1D6701ED00B0AD57 /* ImageCroping */ = {
 			isa = PBXGroup;
 			children = (
+				C6CBBD6D1D7DC0480028CD2D /* CornerpointView.swift */,
+				C6FEF8281D79D33F0038FCF5 /* CroppableImageViewDelegateProtocol.swift */,
+				C6FEF8241D79D2F60038FCF5 /* CornerpointClientProtocol.swift */,
+				C6FEF8221D79D2D40038FCF5 /* CroppableImageView.swift */,
 				C6DCCC9C1D6701ED00B0AD57 /* AppDelegate.swift */,
-				C6DCCC9E1D6701ED00B0AD57 /* ViewController.swift */,
 				C6DCCCA01D6701ED00B0AD57 /* Main.storyboard */,
+				C6CBBD721D7DC16E0028CD2D /* MasterData.swift */,
 				C6DCCCA31D6701ED00B0AD57 /* Assets.xcassets */,
 				C6DCCCA51D6701ED00B0AD57 /* LaunchScreen.storyboard */,
 				C6DCCCA81D6701ED00B0AD57 /* Info.plist */,
+				C6DCCCB81D67117400B0AD57 /* ImageDisplayViewController.swift */,
+				C6CBBD6F1D7DC0660028CD2D /* SupportingFiles */,
 			);
 			path = ImageCroping;
 			sourceTree = "<group>";
@@ -96,7 +122,7 @@
 				TargetAttributes = {
 					C6DCCC981D6701ED00B0AD57 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = D24DQB7U8E;
+						DevelopmentTeam = A9WR928J26;
 					};
 				};
 			};
@@ -126,6 +152,7 @@
 				C6DCCCA71D6701ED00B0AD57 /* LaunchScreen.storyboard in Resources */,
 				C6DCCCA41D6701ED00B0AD57 /* Assets.xcassets in Resources */,
 				C6DCCCA21D6701ED00B0AD57 /* Main.storyboard in Resources */,
+				C65737BE1D7EAAF10020B5A5 /* Shutter sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6DCCC9F1D6701ED00B0AD57 /* ViewController.swift in Sources */,
+				C6FEF8231D79D2D40038FCF5 /* CroppableImageView.swift in Sources */,
+				C6CBBD731D7DC16E0028CD2D /* MasterData.swift in Sources */,
 				C6DCCC9D1D6701ED00B0AD57 /* AppDelegate.swift in Sources */,
+				C6FEF8251D79D2F60038FCF5 /* CornerpointClientProtocol.swift in Sources */,
+				C6DCCCB91D67117400B0AD57 /* ImageDisplayViewController.swift in Sources */,
+				C6FEF8291D79D33F0038FCF5 /* CroppableImageViewDelegateProtocol.swift in Sources */,
+				C6CBBD6E1D7DC0480028CD2D /* CornerpointView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +284,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ImageCroping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.funza.ImageCroping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -263,10 +299,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ImageCroping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.funza.ImageCroping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -289,6 +329,7 @@
 				C6DCCCAD1D6701ED00B0AD57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

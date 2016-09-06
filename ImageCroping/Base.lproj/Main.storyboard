@@ -1,25 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fpc-bB-5Ny">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Image Display View Controller-->
+        <scene sceneID="4L1-1R-g4m">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fpc-bB-5Ny" customClass="ImageDisplayViewController" customModule="ImageCroping" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="c1k-6P-zL5"/>
+                        <viewControllerLayoutGuide type="bottom" id="fXO-P9-vv9"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="3Q2-KD-5ZP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M5O-ec-usN" userLabel="White View">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <subviews>
+                                    <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UGH-jE-Awg" customClass="CroppableImageView" customModule="ImageCroping" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="-60" width="320" height="504"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7JU-Rl-a0A">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <navigationItem id="Jrr-42-Lep">
+                                        <barButtonItem key="leftBarButtonItem" title="Select Image" id="gDP-ad-YGQ">
+                                            <connections>
+                                                <action selector="didSelectImage:" destination="fpc-bB-5Ny" id="ayW-IM-ssz"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Crop &amp; Save" id="FtX-mF-5Y5">
+                                            <connections>
+                                                <action selector="didCropImage:" destination="fpc-bB-5Ny" id="6M1-h1-WAL"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="M5O-ec-usN" firstAttribute="top" secondItem="c1k-6P-zL5" secondAttribute="bottom" id="2RL-Xl-9pX"/>
+                            <constraint firstItem="7JU-Rl-a0A" firstAttribute="leading" secondItem="3Q2-KD-5ZP" secondAttribute="leading" id="Aj7-Jn-7Oi"/>
+                            <constraint firstItem="fXO-P9-vv9" firstAttribute="top" secondItem="M5O-ec-usN" secondAttribute="bottom" id="RfI-jB-D9h"/>
+                            <constraint firstAttribute="bottom" secondItem="7JU-Rl-a0A" secondAttribute="bottom" id="Rfy-YF-nAi"/>
+                            <constraint firstAttribute="trailing" secondItem="M5O-ec-usN" secondAttribute="trailing" id="kjg-HR-ZQ6"/>
+                            <constraint firstItem="M5O-ec-usN" firstAttribute="leading" secondItem="3Q2-KD-5ZP" secondAttribute="leading" id="qyH-5R-LoZ"/>
+                            <constraint firstAttribute="trailing" secondItem="7JU-Rl-a0A" secondAttribute="trailing" id="xPv-8j-5k3"/>
+                        </constraints>
                     </view>
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="cropView" destination="UGH-jE-Awg" id="gpo-cg-nPv"/>
+                        <outlet property="whiteView" destination="M5O-ec-usN" id="Uc5-lj-Z50"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uhX-E5-idI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-388" y="-180"/>
         </scene>
     </scenes>
 </document>
