@@ -17,13 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UGH-jE-Awg" customClass="CroppableImageView" customModule="ImageCroping" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="32" width="320" height="504"/>
+                            </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M5O-ec-usN" userLabel="White View">
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
-                                <subviews>
-                                    <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UGH-jE-Awg" customClass="CroppableImageView" customModule="ImageCroping" customModuleProvider="target">
-                                        <rect key="frame" x="8" y="-60" width="320" height="504"/>
-                                    </view>
-                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7JU-Rl-a0A">
