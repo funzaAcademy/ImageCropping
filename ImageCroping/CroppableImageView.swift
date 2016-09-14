@@ -31,7 +31,6 @@ class CroppableImageView: UIView, CornerpointClientProtocol
     {
     didSet
     {
-      print("in CroppableImageView > didSet")
       imageSize = imageToCrop?.size
       self.setNeedsLayout()
     }
@@ -187,6 +186,7 @@ class CroppableImageView: UIView, CornerpointClientProtocol
     if let requiredImageSize = imageSize
     {
       var displaySize: CGSize = CGSizeZero
+      
       displaySize.width = min(requiredImageSize.width, self.bounds.size.width)
       displaySize.height = min(requiredImageSize.height, self.bounds.size.height)
       let heightAsepct: CGFloat = displaySize.height/requiredImageSize.height
@@ -194,8 +194,9 @@ class CroppableImageView: UIView, CornerpointClientProtocol
       aspect = min(heightAsepct, widthAsepct)
       displaySize.height = round(requiredImageSize.height * aspect)
       displaySize.width = round(requiredImageSize.width * aspect)
-      
+ 
       imageRect = CGRectMake(0, 0, displaySize.width, displaySize.height)
+        
     }
     
     if imageToCrop != nil

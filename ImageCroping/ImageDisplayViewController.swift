@@ -73,7 +73,11 @@ UINavigationControllerDelegate{
 
     @IBAction func didSelectImage(sender: AnyObject) {
         
-        /*See if the current device has a camera.          
+        /* hide instructions from the user */
+        self.whiteView.hidden = true
+        
+        
+        /*See if the current device has a camera.
           But the simulator doesn't offer a camera, 
           so this prevents the
           "Take a new picture" button from crashing the simulator.
@@ -124,6 +128,11 @@ UINavigationControllerDelegate{
             handler:
             {
                 (alert: UIAlertAction)  in
+                
+                guard let _ = self.cropView.imageToCrop else {
+                    self.whiteView.hidden = false
+                    return
+                }
             }
         )
         
@@ -149,7 +158,7 @@ UINavigationControllerDelegate{
         
         if let croppedImage = cropView.croppedImage()
         {
-            self.whiteView.hidden = false
+            //self.whiteView.hidden = false
             delay(0)
             {
                 self.shutterSoundPlayer?.play()
@@ -160,8 +169,10 @@ UINavigationControllerDelegate{
                 
                 delay(0.2)
                 {
-                    self.whiteView.hidden = true
+                    self.whiteView.hidden = false
                     self.shutterSoundPlayer?.prepareToPlay()
+                    /* Now uncrop the image */
+                    self.cropView.cropRect = nil
                 }
             }
         
@@ -182,6 +193,7 @@ extension ImageDisplayViewController {
         {
             picker.dismissViewControllerAnimated(true, completion: nil)
             cropView.imageToCrop = image
+            cropView.contentMode = UIViewContentMode.ScaleAspectFit
         }
         
     }
