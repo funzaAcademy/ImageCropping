@@ -49,7 +49,7 @@ class CornerpointView: UIView
   
   func doSetup()
   {
-    dragger = UIPanGestureRecognizer(target: self as AnyObject, action: "handleCornerDrag:")
+    dragger = UIPanGestureRecognizer(target: self as AnyObject, action: #selector(CornerpointView.handleCornerDrag(_:)))
     self.addGestureRecognizer(dragger)
 
     //Make the corner point view big enough to drag with a finger.
@@ -96,7 +96,7 @@ class CornerpointView: UIView
   func handleCornerDrag(thePanner: UIPanGestureRecognizer)
   {
     //println("In cornerpoint dragger")
-    let newPoint = thePanner.locationInView(self)
+    _ = thePanner.locationInView(self)
 
     switch thePanner.state
     {
